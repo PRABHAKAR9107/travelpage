@@ -1,167 +1,80 @@
-# resume-latex-
-\documentclass[a4paper]{article}
-\usepackage{graphicx} %package to manage images
-\graphicspath{ {images/} }
-\usepackage[usenames,dvipsnames]{color}
-
-
-
-\begin{document}
-	
-	\title{\underline{\textbf{\huge{RESUME}}}}
-	\begin{titlepage}
-		\maketitle
-	\end{titlepage}
-
-\begin{figure}
-	
-	\centering
-	\includegraphics[scale=0.1]{"../../Pictures/Exports/17 May 2018/IMG_20180516_100618(1)"}
-	\label{fig:img201805161006181}
-	\end{figure}	
-	
-\centering
-\vspace{2.5mm}
-\textbf{\underline{{\huge{PRABHAKAR KUMAR} }}}
-
-
-\vspace{2.5mm}
-\begin{flushleft}
-\begin{figure}[h]
-	
-	\includegraphics[scale=0.2]{summary.png}
-\end{figure}
-	\textbf{\underline{{\LARGE{SUMMARY:-}}}}   
-	\begin{itemize}
-		\color{NavyBlue}
-		\item \large{An enthusiastic fresher with hbachelors of engineering degree in Computer Science Engineering.
-			\item 	Expert in implementation of each step of project.
-			\item 	Eager to learn new technologies and methodologies.	\item Always willing to innovate the new things which can improve the existing technology. }
-	\end{itemize}
-	
-	
-	
-\end{flushleft}
-	
-	\begin{flushleft}
-			\begin{figure}[h]
-		\includegraphics[scale=0.4]{"../../Downloads/images (3)"}
-		\newline
-		\textbf{\underline{\LARGE{EDUCATION:-}}}
-		\begin{itemize}
-			\color{WildStrawberry}
-			\item \large 2013 \hspace{40.5mm}  LOK NATH HIGH SCHOOL
-			\newline
-			
-			 \hspace{45.5mm}\large SECONDARY FROM B.S.E.B(74.6)
-			 \newline
-			 
-			 \item\large2016  \hspace{40.5mm}  LOK NATH HIGH SCHOOL
-			 \newline
-			 
-			  \large \hspace{38.5mm} INTERMEDIATE FROM B.S.E.B(73.2)
-			  \newline
-			  
-			  	\item \large2020 \hspace{20.5mm} SHRI MATA VAISHNO DEVI UNIVERSITY
-			  	\newline
-			  	
-			  	 \large \hspace{60.5mm} B.TECH(C.S.E)
-			  	
-		
-		\end{itemize}
-
-	\end{figure}
-
-
-		
-	\end{flushleft}
-\begin{flushleft}
-	
-	\begin{figure}[h]
-	\includegraphics[scale=0.2]{skill.png}
-	\newline
-		\textbf{\underline{\LARGE PROFESSIONAL SKILLS:-}}
-		\begin{itemize}
-			\color{ForestGreen}
-		
-			\vspace{2.5mm}	
-			\item\large WEB DEVELOPMENT
-			
-			\item\large DATA BASE MANAGEMENT
-			\item\large LANGUAGES(JAVASCRIPT,HASKELL,SQL,SHELL SCRIPTING)
-			
-		\end{itemize}
-	
-\end{figure}
-	
-	
-
-\end{flushleft}
-
-\begin{flushleft}
-
-\begin{figure}[h]
-	\includegraphics[scale=0.3]{language.png}
-	\newline
-	\textbf{\underline{\LARGE LANGUAGES:-}}
-	\begin{itemize}
-		\color{Emerald}
-		
-		\vspace{2.5mm}
-		\item\large HINDI
-		\item\large ENGLISH
-		\item\large SPAINISH
-	\end{itemize}
-\end{figure}
-
-
-
-
-\end{flushleft}
-
-
-\begin{flushleft}
-	
-\end{flushleft}
-
-\begin{flushleft}
-	
-\begin{figure}[h]
-	
-	\includegraphics[scale=0.2]{contact.png}
-	\newline
-	\textbf{\underline{\LARGE CONTACTS:-}}
-
-\end{figure}
-\begin{figure}[h]
-	
-		\hspace{6.5mm}
-	\includegraphics[scale=0.1]{Gmail.png}
-	\hspace{35.5mm}
-	\includegraphics[scale=0.2]{dial.png}
-     \newline
-     \textbf{\large prabhakarku98@gmail.com}
-     \hspace{7.5mm}
-     \textbf{\large 9149938482}
-     \newline
-   \hspace{20.5mm}
-   \includegraphics[scale=0.3]{twitter.png}
-   \hspace{36.5mm}
-   \includegraphics[scale=0.3]{linkedin.png}
-   \newline
-   \textbf{\large twitter.com/02panjiyara}
- \hspace{6.5mm}
-   \textbf{\large www.linkedin.com/in/prabhakar-}
-   
-   \textbf{\large \hspace{70.5mm}kumar-1b3944147/}
-   
-   
-  \end{figure}
-
-
- 	
-\end{flushleft}
-
-
-	
-\end{document}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            #life{
+                color: blue;
+                font-family: Impact;
+                
+            }
+            #eat{
+                color: #EE4C7C ;
+            }
+            .took{
+              margin: auto; 
+              float:left;
+               
+            }
+            .google{
+                font-weight:bold;
+                
+                font-size:20px;
+                
+            }
+            #mood{
+                color:skyblue;
+            }
+            #love{
+                color:red;
+            }
+            #pool{
+                text-align:center;
+            }
+            .term{
+                text-align:center;
+            }
+            .food{
+                line-height:2em;
+            }
+            #teri{
+             color:green;   
+            }
+        </style>
+    </head>
+    <body>
+    <div class="took">
+        <h1 id="mood">INTRODUCTION TO TRAVEL</h1>
+        <img src="https://www.kasandbox.org/programming-images/landscapes/beach-waves-daytime.png" width="405">
+        <p>TRAVEL IS KIND OF like <span id="life"> Life, except it happens someplace else</span>. You wake up. You eat. You go out and see things, do things. And you meet people; some of them you get along with, some you don’t. <span id="eat">Then you eat again and go to sleep.</span></p>
+        </div>
+        <h2 id="love">World's Best Travel List</h2>
+        <ul>
+        <li class="google"> Solta( Crotia)</li>
+        <p>The jewel of the Adriatic Sea, Croatia is home to more than 1,200 islands, but travel between them has long been dictated by expensive yacht charters and sluggish public ferries. In 2018, that’s set to change, now that UberBOAT, from the popular ride-sharing app, has launched on-demand transfers and private tours along the Dalmatian Coast.</p>
+        <li  class="google">Greenville (South Carolina)</li>
+        <p>Once a sleepy second fiddle to Southern culinary powerhouses like Charleston and Nashville, Greenville is stepping into the limelight with hot new restaurants. The town will soon be home to an outpost of Sean Brock's heirloom-crop-focused Husk and a food-centric market hall called the Commons.</p>
+        <li class="google">Buenos Aires (Argentina)</li>
+        <p>This year, Buenos Aires becomes a hub for art, sports, and politics: the inaugural Art Basel Cities program, the Youth Olympic Games, and the G20 will all take place in the city, beginning with the multi-year Art Basel initiative.</p>
+        </ul>
+          <img src="https://www.kasandbox.org/programming-images/cute/ChestClosed.png" >
+        <h2 id="teri">Items To Pack For Trip</h2>
+       
+        <div class="food">
+       
+         <ul>
+            <li>Hard-shell Rolling Carry-On Suitcase</li>
+            <li>Backpack with Padded Straps</li>
+            <li>Plastic Bags</li>
+            <li>Money Belt</li>
+            <li>Headlamp</li>
+        </ul>
+        </div>
+        <div class="term">
+        <img src="https://www.kasandbox.org/programming-images/cute/Heart.png">  
+        </div>
+        <h3 id="pool">THANK YOU </h3>
+       
+    </body>
+</html>
